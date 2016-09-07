@@ -1,0 +1,41 @@
+.navbar-brand a:focus, .navbar-brand a:hover
+{
+    text-decoration: none;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #000000;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.item-menu{
+    background-color: #adadad;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    border: solid 1px #000000;
+}
+#title-page{
+    text-transform: capitalize;
+}
+.content{
+   padding-left: 40px;
+   padding-right: 40px;
+   
+}
+.item-nav{
+    text-transform: capitalize;
+}
+.item-title{
+    text-transform: capitalize;    
+}
+
+@media (max-width: 767px){
+    .item-nav{
+        text-align: center;
+        /*margin-right: 5px;*/
+        /*border: solid 1px #000000;*/
+    }
+    
+}
